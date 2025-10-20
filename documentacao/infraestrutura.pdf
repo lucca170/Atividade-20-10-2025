@@ -1,0 +1,14 @@
+# Requisitos de Infraestrutura
+
+**1. Ambiente de Desenvolvimento:**
+* **Sistema Operacional:** Windows, macOS ou Linux.
+* **Editor de Código:** Visual Studio Code.
+* **Backend:** Python 3.8+ com ambiente virtual (`venv`), Flask.
+* **Frontend:** Node.js 16+, Vite, React.
+* **Banco de Dados:** SQLite 3.
+
+**2. Ambiente de Execução (Local):**
+* Para rodar o projeto, é necessário ter o Python 3 e o Node.js instalados.
+* **Passo 1 (Backend):** Abrir um terminal, navegar até a pasta `/sistema`, criar e ativar o ambiente virtual, instalar as dependências (`pip install Flask flask-cors`) e executar o comando `python app.py`.
+* **Passo 2 (Frontend):** Abrir um novo terminal, navegar até a pasta `/sistema/frontend`, instalar as dependências (`npm install` e `npm install axios`) e executar o comando `npm run dev`.
+* O backend rodará em `http://localhost:5000` e o frontend em `http://localhost:5173` (ou outra porta indicada pelo Vite).

@@ -1,0 +1,19 @@
+# Requisitos Funcionais do Sistema de Gestão de Eventos
+
+| ID     | Requisito Funcional                                                                 | Prioridade |
+| :----- | :---------------------------------------------------------------------------------- | :--------- |
+| RF01   | O sistema deve permitir que um usuário se autentique com e-mail e senha.              | Alta       |
+| RF02   | O sistema deve exibir uma mensagem de erro clara em caso de falha na autenticação.  | Alta       |
+| RF03   | O sistema deve permitir que o usuário faça logout.                                  | Alta       |
+| RF04   | A tela principal (Dashboard) deve exibir o nome do usuário logado.                  | Média      |
+| RF05   | O sistema deve permitir o cadastro, edição, visualização e exclusão de eventos.       | Alta       |
+| RF06   | O sistema deve permitir a busca de eventos por título.                              | Média      |
+| RF07   | O sistema deve validar os campos de cadastro de evento (campos preenchidos, data/hora, vagas >= 0). | Alta       |
+| RF08   | O sistema deve permitir o cadastro, edição, visualização e exclusão de participantes. | Alta       |
+| RF09   | O sistema deve permitir a busca de participantes por nome ou e-mail.                | Média      |
+| RF10   | O sistema deve validar os campos de cadastro de participante (campos obrigatórios, formato de e-mail). | Alta       |
+| RF11   | O sistema deve listar os eventos em ordem alfabética na tela de inscrições, usando um algoritmo de ordenação. | Alta       |
+| RF12   | O sistema deve permitir registrar um participante em um evento.                     | Alta       |
+| RF13   | O sistema deve salvar a data e a hora exatas do registro da inscrição.              | Média      |
+| RF14   | O sistema deve verificar a disponibilidade de vagas a cada nova inscrição.            | Alta       |
+| RF15   | O sistema deve exibir um alerta claro de "Vagas Esgotadas!" e impedir novas inscrições. | Alta       |

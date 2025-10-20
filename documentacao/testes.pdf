@@ -1,0 +1,10 @@
+# Documento de Casos de Teste
+
+| ID     | Caso de Teste                         | Passos para Reprodução                                                                     | Resultado Esperado                                                   |
+| :----- | :------------------------------------ | :----------------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
+| CT01   | Login com credenciais válidas          | 1. Acessar a página inicial. 2. Inserir e-mail 'admin@escola.com' e senha 'senha_hash_exemplo'. 3. Clicar em "Entrar". | O usuário é redirecionado para o painel principal.                          |
+| CT02   | Login com senha inválida              | 1. Acessar a página inicial. 2. Inserir e-mail correto e senha incorreta. 3. Clicar em "Entrar". | Uma mensagem de erro "Email ou senha incorretos" é exibida.          |
+| CT03   | Cadastro de um novo participante       | 1. Logar no sistema. 2. Acessar "Gerenciar Participantes". 3. Preencher o formulário com nome e e-mail válidos e salvar.      | O novo participante aparece na lista de participantes.                                      |
+| CT04   | Exclusão de um evento                 | 1. Logar no sistema. 2. Acessar "Gerenciar Eventos". 3. Clicar no botão "Deletar" de um evento existente. | O evento é removido da lista.                                  |
+| CT05   | Tentar inscrição em evento lotado     | 1. Logar. 2. Acessar "Realizar Inscrição". 3. Selecionar o evento "Feira de Ciências". 4. Selecionar um participante e clicar em "Inscrever". | O sistema exibe o alerta "Vagas Esgotadas!" e a inscrição não é realizada. |
+| CT06   | Realizar inscrição em evento com vagas | 1. Logar. 2. Acessar "Realizar Inscrição". 3. Selecionar o evento "Palestra de Robótica". 4. Selecionar um participante e clicar em "Inscrever". | O sistema exibe a mensagem "Inscrição realizada com sucesso!". |
